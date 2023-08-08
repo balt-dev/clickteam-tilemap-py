@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cttilemap"
+version = "0.0.1"
+authors = [
+  { name="baltdev", email="heptor42@gmail.com" },
+]
+description = "A pure-python library to parse Clickteam TileMap files."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+install_requires = [
+    'attrs'
+]
+
+[project.urls]
+"Homepage" = "https://github.com/balt-dev/clickteam-tilemap-py"
+"Bug Tracker" = "https://github.com/balt-dev/clickteam-tilemap-py/issues"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
