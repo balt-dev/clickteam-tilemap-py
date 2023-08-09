@@ -1,5 +1,5 @@
 # cttilemap
-### A pure-python library to parse Clickteam TileMap files.
+### A pure-python library to parse [Clickteam TileMap](https://github.com/clickteam-plugin/TileMap/tree/master) files.
 ---
 ## How to use
 ```python

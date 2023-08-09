@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cttilemap"
-version = "0.0.1"
+version = "1.0.0"
 authors = [
   { name="baltdev", email="heptor42@gmail.com" },
 ]
